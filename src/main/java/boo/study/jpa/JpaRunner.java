@@ -16,7 +16,6 @@ public class JpaRunner implements ApplicationRunner {
     @PersistenceContext
     private EntityManager entityManager;
 
-
     @Override
     @Transactional
     public void run(ApplicationArguments args) throws Exception {
